@@ -17,7 +17,7 @@ function App() {
   </div>
   <Container>
   <Routes>
-      <Route exact path="/" element={<Home />} />
+      <Route exact path="/" element={<Home />}  />
       <Route exact path="/company" element={<Company />} />
       <Route exact path="/contact" element={<Contact />} />
       <Route exact path="/newproject" element={<NewProject/>} />
